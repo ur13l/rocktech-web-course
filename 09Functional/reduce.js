@@ -1,4 +1,4 @@
-const array = [54, 67, 12, 35, 66, 23, 55];
+const array = [54, 67, 12, 35, 66, 123, 55];
 
 const max = array.reduce((current, newElem) => {
   console.log(`${current} > ${newElem} = ${current > newElem}`);

@@ -1,8 +1,10 @@
-const insideFn = (logger) => {
-  logger("Texto pasado a una función dentro de una función");
+const insideFn = (fn) => {
+  fn("Texto pasado a una función dentro de una función");
 };
 
 insideFn((message) => console.log(message));
+
+//----------------------
 
 //Incorrecto
 const addPhoto = (id, url, author, photos) => {

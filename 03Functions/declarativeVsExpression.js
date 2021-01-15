@@ -1,5 +1,4 @@
 declarative();
-expression();
 
 function declarative() {
   console.log("Ejecutando función declarativa");
@@ -8,3 +7,5 @@ function declarative() {
 const expression = function () {
   console.log("Función como expresión");
 };
+
+expression();

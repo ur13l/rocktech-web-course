@@ -19,4 +19,4 @@ const query = async (page, limit) => {
   }
 };
 
-query(2, 3);
+query(2, -3);
